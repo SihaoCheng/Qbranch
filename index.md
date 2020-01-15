@@ -1,6 +1,3 @@
-layout: page
-title: "PAGE TITLE"
-permalink: /Qbranch/
 
 ## A Cooling Anamaly of High-Mass White Dwarfs
 
