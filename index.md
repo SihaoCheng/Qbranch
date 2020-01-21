@@ -3,7 +3,7 @@ layout: default
 ---
 
 # A Cooling Anamaly of White Dwarfs
-I discovered an anomaly in the cooling process of some high-mass white dwarf stars. The "trafic jam" created by this anomaly can explain properties of the "Q branch", an unexpected branch-like feature revealed by the data of Gaia satellite. This anomaly is an extra delay of cooling in addition to the delay of crystallization. The settling of 22Ne in white dwarfs may account for the physical origin of this extra delay. Here is [our paper](https://arxiv.org/abs/1905.12710) and the catalog of selected white dwarfs: 
+Most white dwarf stars shine at the cost of cooling, but not all. Using the wonderful Gaia DR2 data, I discovered some weired high-mass white dwarfs stopping their cooling when they reach a specific mass-dependent temperature. This slowing-down or "stop" of cooling produces a "trafic jam" on the white dwarf cooling tracks, and was named the "Q branch" on the Hertzsprung--Russell diagram. The corresponding temperatures of the Q branch is around the freezing temperature of the Coulomb plasma in white dwarf cores. However, I demonstrated that crystallization cannot produce such a strong delay effect, while another mechanism, i.e., the settling of neutron-rich 22Ne, can possibly produce this cooling anomaly. It seems a conspiracy of nature that the effect of 22Ne settling peaks around white dwarf freezing temperatures! Here is [our paper](https://ui.adsabs.harvard.edu/abs/2019ApJ...886..100C/abstract) and the catalog of high-mass white dwarfs used in our study: 
 <br>
 [WD_early.csv](https://pages.jh.edu/~scheng40/Qbranch/WD_early.csv)
 <br>
