@@ -47,7 +47,7 @@ With a simplified calculation, we found that the effective zone of 22Ne settling
 <br>
 <img src="https://pages.jh.edu/~scheng40/Qbranch/images/22Ne_aug20.png" width="500" />
 
-## Contacts
+<h1 id="Contacts">Contacts</h1>
 s.cheng@jhu.edu
 <br>
 +1 443 207 1532
