@@ -20,7 +20,7 @@ The Q branch is revealed by the Hertzsprung--Russell diagram (a luminosity vs. c
 
 
 ## Two populations of white dwarfs
-To explain both the number-density enhancement and the velocity excess on the Q branch, There must exist a special population of high-mass white dwarfs, which is subject to an extra cooling delay on the branch. This plot shows a simulated animation of this two-population cooling scenario. Our detailed analysis shows that the fraction of the extra-delayed population is about 7%, and the delay is 8 Gyr long.
+To explain both the number-density enhancement and the velocity excess on the Q branch, There must exist a special population of high-mass white dwarfs, which is subject to an extra cooling delay on the branch. This plot shows a simulated animation of this two-population cooling scenario. Our detailed analysis shows that the fraction of the extra-delayed population is about 6%, and the delay is 8 Gyr long.
 <br>
 <img src="https://pages.jh.edu/~scheng40/Qbranch/images/gif_two_pops.gif" width="500" />
 
