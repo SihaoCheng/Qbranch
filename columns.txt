@@ -1,0 +1,23 @@
+The explanation of columns in the catalogs WD_early.csv, WD_Q.csv, and WD_late.csv
+
+White_dwarf_name: 
+	The name of white dwarfs given by Gentile-Fusillo et al. (2019)
+
+source_id,ra,dec,parallax,parallax_error,pmra,pmdec,astrometric_excess_noise,astrometric_sigma5d_max,phot_g_mean_flux,phot_g_mean_flux_error,phot_g_mean_mag,phot_bp_mean_flux,phot_bp_mean_flux_error,phot_bp_mean_mag,phot_rp_mean_flux,phot_rp_mean_flux_error,phot_rp_mean_mag,phot_bp_rp_excess_factor,l,b,bp_rp:
+	Gaia DR2 columns
+
+M_G:
+	Absolute magnitude of the Gaia G passband. Converted directly from parallax.
+
+bp_rp_error,M_G_error:
+	The error of the H--R diagram coordinate. Calculated from Gaia photometry and astrometry.
+
+age_H_f,mass_H_f,age_H_o,mass_H_o,age_He_f,mass_He_f,age_He_o,mass_He_o:
+	The age and mass of WD, calculated from the Montreal model (Fontaine et al., 2001, denoted by 'f') and a hybrid model (assuming O/Ne core for m_WD > 1.05 Msun, using Camisassa et al., 2019; denoted by 'o'), for Hydrogen ('H') and Helium ('He') atmospheres. A public tool to convert the H--R diagram coordinate to white dwarf parameters (age, mass, etc.,) can be found on my github: https://github.com/SihaoCheng/WD_models
+
+vL_no_correction, vB_no_correction, vL_paper, vB_paper, vL_vsun_subtracted, vB_vsun_subtracted, vL_centered, vB_centered
+	The velocity of WDs projected to the Galactic longitude (L) and latitude (B) directions. In order to make the velocity of a group of stars in the milky way disk to be zero, there are 3 steps that convert the solar centric velocity into the centered reference, i.e., the corrections of the solar motion, of the Oort constants of galactic rotation, and of the asymmetric drift. Columns with "no correction" mark the solar centric velocities; columns with "paper" mark the velocities with only the Oort correction, which is defined by equations (8) and (9) in our paper Cheng et al. (2019) (2019ApJ...886..100C) and used as the input of the MCMC model in our paper; columns with "vsun_subtracted" are corrected only for the solar motion relative to the LSR; columns with "centered" are corrected for all of the 3 effects, which is the most suitable one to be used as an age indicator. Codes to generate these velocities can be found on my Github: https://github.com/SihaoCheng/Qbranch
+
+MWDD_spectype,MWDD_wdid,MWDD_wdname,MWDD_ismag:
+	The spectral type, name, and magnetic-field information from the Montreal white dwarf database (MWDD, http://www.montrealwhitedwarfdatabase.org/tables-and-charts.html).
+
