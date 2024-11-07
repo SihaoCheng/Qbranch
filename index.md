@@ -48,12 +48,10 @@ It is natural to ask for the physics behind this selective, powerful, and highly
 <img src="https://pages.jh.edu/~scheng40/Qbranch/images/22Ne_aug20.png" width="500" />
 
 <h1 id="Contacts">Contacts</h1>
-s.cheng@jhu.edu
+scheng@ias.edu
 <br>
 +1 443 207 1532
 <br>
-Bloomberg 506
+Institute for Advanced Study
 <br>
-3400 N. Charles St., Johns Hopkins University
-<br>
-Baltimore, MD21218, USA
+Princeton, NJ 08540, USA
