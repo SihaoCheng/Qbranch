@@ -3,7 +3,7 @@ layout: default
 ---
 
 # A Cooling Anamaly of White Dwarfs
-Most white dwarf stars shine at the cost of cooling, but not all. Using the wonderful Gaia DR2 data, I discovered some weired high-mass white dwarfs stopping their cooling when they reach a specific mass-dependent temperature. This slowing-down or "stop" of cooling produces a "trafic jam" on the white dwarf cooling tracks, and was named the "Q branch" on the Hertzsprung--Russell diagram. The corresponding temperature of the Q branch is around the freezing temperature of the Coulomb plasma in white dwarf cores. Using kinematics as an indicator of stellar true age, We demonstrated that the "stop" of cooling is several billion years long, and canno be created by crystallization alone. We also show that another mechanism, i.e., the settling of the neutron-rich 22Ne, can possibly produce this cooling anomaly. It seems a conspiracy of nature that the effect of 22Ne settling is peaked around the white dwarf freezing temperature! Here is [our paper](https://ui.adsabs.harvard.edu/abs/2019ApJ...886..100C/abstract), the catalog of high-mass white dwarfs used in the study
+Most white dwarf stars shine at the cost of cooling, but not all. Using the wonderful Gaia DR2 data, I discovered some weired high-mass white dwarfs stopping their cooling when they reach a specific mass-dependent temperature. This slowing-down or "stop" of cooling produces a "trafic jam" on the white dwarf cooling tracks, and was named the "Q branch" on the Hertzsprung--Russell diagram. The corresponding temperature of the Q branch is around the freezing temperature of the Coulomb plasma in white dwarf cores. Using kinematics as an indicator of stellar true age, We demonstrated that the "stop" of cooling is several billion years long, and canno be created by crystallization alone. We also show that another mechanism, i.e., the settling of the neutron-rich 22Ne, can possibly produce this cooling anomaly. It seems a conspiracy of nature that the effect of 22Ne settling is peaked around the white dwarf freezing temperature! Here are my papers for the [discovery](https://ui.adsabs.harvard.edu/abs/2019ApJ...886..100C/abstract) and [theory](https://www.nature.com/articles/s41586-024-07102-y). Here are the catalog of high-mass white dwarfs used in the study
 <br>
 [WD_early.csv](https://pages.jh.edu/~scheng40/Qbranch/WD_early.csv)
 <br>
@@ -43,9 +43,11 @@ Illustration of how this simple two-population, two-parameter model can recover 
 <img src="https://pages.jh.edu/~scheng40/Qbranch/images/gif_age.gif" width="500" />
 
 ## The physics behind this cooling anomaly
-It is natural to ask for the physics behind this selective, powerful, and highly-peaked extra cooling delay. With a simplified calculation, we found that the effective zone of 22Ne settling matches the Q branch very well on the H--R diagram. We look forward to numerical results from detailed white dwarf models.
+It is natural to ask for the physics behind this selective, powerful, and highly-peaked extra cooling delay. In my discovery paper I pointed out that gravitational energy from 22Ne settling is likely the energy source.  In a recent [Nature paper](https://www.nature.com/articles/s41586-024-07102-y), we showed that the settling is actually triggered by 22Ne distillation during crystallization, as illustrated below: in the traditional picture, crystals are heaviers and thus form a solid core; in contrast, when 22Ne is more than about 2%, the crystals become lighter because the solid phase has less neutron-rich 22Ne. In this case, the crystals will float up and then melt. This micro convection efficiently transports C and O upwards and 22Ne downwards, releasing exactly the amount of gravitational energy required to make the star shine.
 <br>
-<img src="https://pages.jh.edu/~scheng40/Qbranch/images/22Ne_aug20.png" width="500" />
+<img src="https://github.com/SihaoCheng/Qbranch/blob/master/distillation.png?raw=true" width="500" />
+
+
 
 <h1 id="Contacts">Contacts</h1>
 scheng@ias.edu
